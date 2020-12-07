@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="b096042b-9ae3-4c1c-a03b-f4479d1a729e" />
+          <option name="name" value="DDL data source" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/.idea/dataSources/f690e0f4-3b6a-43a1-81e7-c9dbc86255c8/storage_v2/_src_/schema" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

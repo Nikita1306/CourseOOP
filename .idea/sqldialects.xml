@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/.idea/dataSources/f690e0f4-3b6a-43a1-81e7-c9dbc86255c8/storage_v2/_src_/schema" dialect="GenericSQL" />
+  </component>
+</project>

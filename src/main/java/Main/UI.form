@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Main.UI">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="612" height="771"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="e43c6" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e248" binding="homePagePanel" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="32" left="32" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Home Page"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c7e22" class="javax.swing.JTextField" binding="foundText">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="d68f6" class="javax.swing.JTextField" binding="clubNameText">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="738a6" class="javax.swing.JTextField" binding="cityText">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="582d4" class="javax.swing.JLabel" binding="cityLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <text value="City"/>
+                </properties>
+              </component>
+              <component id="13296" class="javax.swing.JLabel" binding="foundLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <text value="Foundation Year"/>
+                </properties>
+              </component>
+              <hspacer id="7c2c8">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="23b0f" class="javax.swing.JLabel" binding="clubNameLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="16"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <text value="Club Name"/>
+                </properties>
+              </component>
+              <vspacer id="779b4">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="400"/>
+                    <preferred-size width="-1" height="400"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="8f968">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="32"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="1ecf1">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="32"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="f813e" class="javax.swing.JButton" binding="applyButton" default-binding="true">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Apply"/>
+                </properties>
+              </component>
+              <vspacer id="bed82">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="32"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="e38a8" class="javax.swing.JButton" binding="chooseClubButton">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Choose existing"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1aed" binding="squadPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="32" left="32" bottom="32" right="32"/>
+            <constraints>
+              <tabbedpane title="Squad"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="e39e7">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="1" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="540" height="-1"/>
+                    <preferred-size width="540" height="-1"/>
+                    <maximum-size width="540" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-460289"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e4919" class="javax.swing.JTable" binding="table1" custom-create="true" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <autoCreateColumnsFromModel value="true"/>
+                      <autoCreateRowSorter value="true"/>
+                      <autoResizeMode value="0"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <toolbar id="a3a9">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <borderPainted value="false"/>
+                  <floatable value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c3b99" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="7ef22" class="javax.swing.JButton" binding="addPlayerButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="add_new_52px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ae24a" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="ecc94" class="javax.swing.JButton" binding="deletePlayerButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="close_window_52px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="ccc43" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="4a38f" class="javax.swing.JButton" binding="editPlayerButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="edit_26px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="79142" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="b23ec" class="javax.swing.JButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="save_26px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="34843" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="10f3b" class="javax.swing.JButton" binding="searchPlayersButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="google_web_search_48px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </toolbar>
+            </children>
+          </grid>
+          <grid id="afbac" binding="gamesPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="32" left="32" bottom="32" right="32"/>
+            <constraints>
+              <tabbedpane title="Games"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <toolbar id="54aae">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4473925"/>
+                  <borderPainted value="false"/>
+                  <floatable value="false"/>
+                  <margin top="0" left="0" bottom="0" right="0"/>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="98685" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="91daa" class="javax.swing.JButton" binding="addGameButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="add_new_52px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="f8b2a" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="6ada6" class="javax.swing.JButton" binding="deleteGameButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="close_window_52px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="e644e" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="1c5c9" class="javax.swing.JButton" binding="editGameButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="edit_26px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="81973" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="2ffec" class="javax.swing.JButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="save_26px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="491a2" class="javax.swing.JToolBar$Separator">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="98a40" class="javax.swing.JButton" binding="searchGameButton">
+                    <constraints/>
+                    <properties>
+                      <background color="-919809"/>
+                      <foreground color="-67073"/>
+                      <icon value="google_web_search_48px.png"/>
+                      <maximumSize width="40" height="40"/>
+                      <minimumSize width="40" height="40"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </toolbar>
+              <scrollpane id="bce97">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="3d62" class="javax.swing.JTable" binding="table2" custom-create="true" default-binding="true">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
