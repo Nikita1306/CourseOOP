@@ -21,7 +21,7 @@ public class PlayerDaoImpl  implements PlayerDAO {
     public Player findByNumber(int number) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory()
                 .openSession();
-        Player pl = session.get(Player.class, number);
+        Player pl = (Player)session.createQuery("from Player where number = '" + number + "'").list().get(0);
         session.close();
         return pl;
     }
@@ -82,7 +82,8 @@ public class PlayerDaoImpl  implements PlayerDAO {
         Session session = HibernateSessionFactoryUtil.getSessionFactory()
                 .openSession();
         Transaction transaction = session.beginTransaction();
-        session.saveOrUpdate(player);
+        //session.saveOrUpdate(player);
+        session.update(player);
         transaction.commit();
         session.close();
     }

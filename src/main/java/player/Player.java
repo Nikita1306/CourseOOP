@@ -6,10 +6,11 @@ import javax.persistence.*;
 @Entity
 @Table(name = "player")
 public class Player {
+    @Id
+    private int id;
     private String surname;
     @Column(name = "firstname")
     private String firstName;
-    @Id
     @Column(name = "number")
     private int number;
     @Column(name = "position")
@@ -101,6 +102,14 @@ public class Player {
 
     public Object[] fieldsToArray() {
         return new Object[] {getSurname(),getFirstName(),getNumber(),getPosition(),getGoals(),getAssists()};
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
 

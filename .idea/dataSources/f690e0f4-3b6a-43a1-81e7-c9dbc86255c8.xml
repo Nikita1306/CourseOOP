@@ -734,36 +734,42 @@
       <Position>7</Position>
       <DataType>varchar(25)|0s</DataType>
     </column>
-    <index id="225" parent="207" name="player_team_name_fk_idx">
+    <column id="225" parent="207" name="id">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <index id="226" parent="207" name="player_team_name_fk_idx">
       <ColNames>team_name</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="226" parent="207" name="PRIMARY">
+    <key id="227" parent="207" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>number</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="227" parent="207" name="player_team_name_fk">
+    <foreign-key id="228" parent="207" name="player_team_name_fk">
       <ColNames>team_name</ColNames>
       <RefTableName>team</RefTableName>
       <RefColNames>name</RefColNames>
     </foreign-key>
-    <column id="228" parent="208" name="name">
+    <column id="229" parent="208" name="name">
       <Position>1</Position>
       <DataType>varchar(25)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="229" parent="208" name="city">
+    <column id="230" parent="208" name="city">
       <Position>2</Position>
       <DataType>varchar(25)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="230" parent="208" name="found_year">
+    <column id="231" parent="208" name="found_year">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="231" parent="208" name="PRIMARY">
+    <key id="232" parent="208" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
       <Primary>1</Primary>

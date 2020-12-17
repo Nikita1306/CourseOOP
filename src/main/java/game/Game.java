@@ -4,14 +4,17 @@ import team.Team;
 
 import javax.persistence.*;
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 
+/**
+ * Class, which represents <b>Game</b> table from database with all its fields, getters and setters
+ */
 @Entity
 @Table(name = "game")
 public class Game {
-
-    private String opponent;
     @Id
+    private int id;
+    private String opponent;
+
     @Column(name = "datetime")
     private Calendar dateTime;
     @Column(name = "your_Goals")
@@ -86,5 +89,13 @@ public class Game {
 
     public void setTeamName(Team teamName) {
         this.teamName = teamName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

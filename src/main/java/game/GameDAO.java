@@ -6,6 +6,10 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+
+/**
+ * Interface for methods to be implemented to work with <b>Game</b> table in database
+ */
 public interface GameDAO {
     Game findByDateAndTime(Calendar calendar);
     List<Game> findByOpponent(String opponent);
